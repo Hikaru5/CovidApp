@@ -12,12 +12,11 @@ An app that allows for users to view COVID-19 statistics for the whole of the Un
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Statistics Tracker**
+- **Mobile: Android**
+- **Story: Due to the unprecedented global pandemic, our team decided to collaborate and produce a simple, easy, accessible application to view the impact COVID-19 has had on our daily lives for the past year.**
+- **Market: This app was created to be applicable to all, as COVID-19 is a devastating global health crisis which has afflicted and impacted all of us in numerous ways. The common person can and should utilize this app to get daily updates and information regarding the pandemic, and how it is either getting better or worse.**
+- **Scope: We hope this app reaches civilians far and wide and allows for them to receive real-time data regarding the pandemic.**
 
 ## Product Spec
 
@@ -40,12 +39,23 @@ An app that allows for users to view COVID-19 statistics for the whole of the Un
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* HOME
+   * Allows for the user to view the name of the application, as well as navigate between future screens with the buttons categorized by the United States' total statistics, a list of states users can click on to view individual cases for, the individual states' statistics, general information about the pandemic, as well as an about us page for the creators of this application. 
+   
+* UNITED STATES STATISTICS
+   * Allows for the user to see how many people in the United States have had the coronavirus since the start of the pandemic, total recovered, total dead, those in critical condition, active cases, cases reported today, as well as deaths reported today. 
+   
+* STATE STATISTICS
+   * A list of all fifty states in the US where people can find statistics on. 
+   
+* SPECIFIC STATE STATISTICS
+   * Statistics regarding each individual state such as how many people have had the coronavirus since the start of the pandemic, total recovered, total dead, those in critical condition, active cases, cases reported today, as well as deaths reported today. 
+   
+* GENERAL INFORMATION
+   * Basic information about the pandemic such as the origin, the spread, the mandates, the vaccines and production, etc. 
+   
+* ABOUT US 
+   * Creators of the application!
 
 ### 3. Navigation
 
@@ -69,11 +79,6 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
 ## Schema 
 [This section will be completed in Unit 9]
-
-### Models
-[Add table of models]
-
-### Networking
 
 ### Resources 
 - https://covidtracking.com/data/api
