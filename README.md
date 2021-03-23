@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-An app that allows for users to view COVID-19 statistics globally and for each state in the United States.
+An app that allows for users to view COVID-19 statistics for the whole of the United States as well as each individual state. 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
