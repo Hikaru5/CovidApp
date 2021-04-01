@@ -11,7 +11,7 @@
 An app that allows for users to view COVID-19 statistics for the whole of the United States as well as each individual state. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+
 - **Category: Statistics Tracker**
 - **Mobile: Android**
 - **Story: Due to the unprecedented global pandemic, our team decided to collaborate and produce a simple, easy, accessible application to view the impact COVID-19 has had on our daily lives for the past year.**
@@ -61,24 +61,24 @@ An app that allows for users to view COVID-19 statistics for the whole of the Un
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home
+* United States Statistics
+* State Statistics
+* Specific State Statistics
+* General Information
+* About Us 
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Home --> United States Statistics --> Home
+* Home --> State Statistics --> Specific State Statistics --> State Statistics --> Home
+* Home --> General Information --> Home
+* Home --> About Us --> Home
 
 ## Digital Wireframe
 https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&frame-preset-name=iPhone%2011%20Pro%20Max
 
 ## Schema 
-[This section will be completed in Unit 9]
 
 ### Resources 
 - https://covidtracking.com/data/api
