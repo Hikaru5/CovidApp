@@ -31,14 +31,16 @@ public class MainActivity extends AppCompatActivity {
         btnCountryStats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(MainActivity.this, CountryStatsActivity.class);
+                startActivity(i);
             }
         });
 
         btnStateStats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent i = new Intent(MainActivity.this, StateStatsActivity.class);
+                startActivity(i);
             }
         });
 

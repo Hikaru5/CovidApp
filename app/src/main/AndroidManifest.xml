@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidApp">
-        <activity android:name=".CovidInfoActivity"></activity>
+        <activity android:name=".SpecificStateStatsActivity"></activity>
+        <activity android:name=".StateStatsActivity" />
+        <activity android:name=".CountryStatsActivity" />
+        <activity android:name=".CovidInfoActivity" />
         <activity android:name=".AboutUsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
