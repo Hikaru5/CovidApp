@@ -80,11 +80,14 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
 ## Schema 
 ### Models
-#### Post
+#### State Stats
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | image         | File     | image that user posts |
+   | image         | File     | image of the state                        |
+   | stateName     | String   | name of state                             |
+   | deaths        | Number   | number of deaths in corresponding state   |
+   | infected      | Number   | number of infected in corresponding state |
    
 ### Resources 
 - https://covidtracking.com/data/api
