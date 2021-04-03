@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63A1FF"
+    android:orientation="vertical"
+    tools:context=".CovidInfoActivity">
+
+    <Button
+        android:id="@+id/btnCovidInfoBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#C0E96A"
+        android:text="&lt;-- Back"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvCovidInfoTitle"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#C4C4C4"
+        android:fontFamily="@font/noto_sans_bold"
+        android:text="Covid-19 Info"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tvCovidInfo"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#DCDCDC"
+        android:fontFamily="@font/noto_sans"
+        android:padding="10dp"
+        android:text="akdj wjaj djawdwadkn awn nd jkwajnkfdjnwajfj nnwn n jnandknasdnnwa nn nd kjansdnnawn nkdwnansdnwa nndkawnkbdknbknsakndnsan dn  na nndnawndjajdnwadsjkadnk nk kn nabkdbhwbdbhksbkakdj d :)"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+</LinearLayout>
