@@ -79,7 +79,20 @@ An app that allows for users to view COVID-19 statistics for the whole of the Un
 https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&frame-preset-name=iPhone%2011%20Pro%20Max
 
 ## Schema 
+### Models
+#### Post
 
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user post (default field) |
+   | author        | Pointer to User| image author |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | createdAt     | DateTime | date when post is created (default field) |
+   | updatedAt     | DateTime | date when post is last updated (default field) |
+   
 ### Resources 
 - https://covidtracking.com/data/api
 - https://hackmd.io/PjNl4T_PSzaDQ6LGA5tPuQ?both
