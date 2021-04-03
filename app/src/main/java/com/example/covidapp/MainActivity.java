@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btnCovidInfo = findViewById(R.id.btnCovidInfo);
         btnAboutUs = findViewById(R.id.btnAboutUs);
 
+        getSupportActionBar().hide();//hides the title bar on the top of the app
+
         btnCountryStats.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
