@@ -11,10 +11,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String TAG = "MainActivity";
 
-    private Button btnCountryStats;//country stats button AKA US stats button (btnUSstats looked weird as a name)
-    private Button btnStateStats;
-    private Button btnCovidInfo;
-    private Button btnAboutUs;
+    Button btnCountryStats;//country stats button AKA US stats button (btnUSstats looked weird as a name)
+    Button btnStateStats;
+    Button btnCovidInfo;
+    Button btnAboutUs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

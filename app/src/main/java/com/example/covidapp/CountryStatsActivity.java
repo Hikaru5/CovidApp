@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class CountryStatsActivity extends AppCompatActivity {
 
-    public static String TAG = "CountryStatsActivity";
+    public static final String TAG = "CountryStatsActivity";
 
     Button btnBack;
     RecyclerView rvCountryStats;

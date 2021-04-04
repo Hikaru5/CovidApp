@@ -9,6 +9,8 @@ import android.widget.Button;
 
 public class StateStatsActivity extends AppCompatActivity {
 
+    public static final String TAG = "StateStatsActivity";
+
     Button btnBack;
     RecyclerView rvStates;
 

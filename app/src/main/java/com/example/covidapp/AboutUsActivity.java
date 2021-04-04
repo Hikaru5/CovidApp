@@ -10,7 +10,8 @@ import android.widget.Button;
 public class AboutUsActivity extends AppCompatActivity {
 
     public static final String TAG = "CovidInfoActivity";
-    private Button btnBack;
+
+    Button btnBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
