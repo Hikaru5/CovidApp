@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -26,5 +27,13 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
         tvStateName = findViewById(R.id.tvSpecificStateStatsTitle);
         ivStateImg = findViewById(R.id.ivSpecificStateStatsPicture);
         rvStateStats = findViewById(R.id.rvSpecificStateStats);
+
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
+
 }
