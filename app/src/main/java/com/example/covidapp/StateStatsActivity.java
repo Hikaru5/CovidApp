@@ -28,6 +28,8 @@ public class StateStatsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_state_stats);
 
+        getSupportActionBar().hide();//hides the title bar on the top of the app
+
         btnBack = findViewById(R.id.btnStateStatsBack);
         rvStates = findViewById(R.id.rvStates);
 

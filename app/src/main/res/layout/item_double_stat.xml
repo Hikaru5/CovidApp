@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <TextView
         android:id="@+id/tvStatTitle1"
@@ -11,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
         android:background="#C4C4C4"
         android:fontFamily="@font/noto_sans_bold"
         android:text="Stat #1"
@@ -24,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvStatTitle1"
         android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
         android:background="#DCDCDC"
         android:fontFamily="@font/noto_sans"
         android:text="1000"
@@ -37,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvStatTitle2"
         android:layout_marginStart="20dp"
+        android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/tvStat1"
         android:background="#DCDCDC"
         android:fontFamily="@font/noto_sans"
@@ -50,6 +52,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/tvStatTitle1"
         android:background="#C4C4C4"
         android:fontFamily="@font/noto_sans_bold"

@@ -16,6 +16,8 @@ public class CovidInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_covid_info);
 
+        getSupportActionBar().hide();//hides the title bar on the top of the app
+
         btnBack = findViewById(R.id.btnCovidInfoBack);
 
         //goes back to main page when btnBack is pressed

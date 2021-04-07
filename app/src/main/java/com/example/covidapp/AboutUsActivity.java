@@ -18,6 +18,8 @@ public class AboutUsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
+        getSupportActionBar().hide();//hides the title bar on the top of the app
+
         btnBack = findViewById(R.id.btnAboutUsBack);
 
         //goes back to main page when btnBack is pressed
