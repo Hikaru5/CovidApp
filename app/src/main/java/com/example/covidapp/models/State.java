@@ -15,7 +15,7 @@ public class State {
     public int deathCount;
     public int infectedCount;
     public int recoveredCount;
-    public String stateImageUrl;
+    public String stateImage;
 
     public State(){}//empty constructor for parceler
 
@@ -27,7 +27,7 @@ public class State {
         state.deathCount = 1000;
         state.infectedCount = 2000;
         state.recoveredCount = 3000;
-        state.stateImageUrl = "";
+        state.stateImage = "";
 
         return state;
     }
