@@ -80,14 +80,36 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
 ## Schema 
 ### Models
-#### State Stats
+#### DoubleStat
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | image         | File     | image of the state                        |
-   | stateName     | String   | name of state                             |
-   | deaths        | Number   | number of deaths in corresponding state   |
-   | infected      | Number   | number of infected in corresponding state |
+   | statTitle1         | String     | Title of the first statistic                        |
+   | statTitle2     | String   | Title of the second statistic                             |
+   | stat1        | Number   | The first statistic   |
+   | stat2      | Number   | The second statistic |
+   
+   #### State
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | stateName         | String     | Title of the first statistic                        |
+   | deathCount     | Number   | Number of deaths                             |
+   | recoveredCount        | Number   | Number of patients recovered   |
+   | infectedCount      | Number   | Number of patients infected |
+   | stateImage | Image | An image of the state |
+   
+### Networking
+
+* UNITED STATES STATISTICS
+  * http://covidtracking.com/api/us
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in the entirety of the US including regions, positive cases, negative cases, pending cases, those hospitalized currently and cumulatively, those hospitalized in the ICU currently and cumulatively, those on the ventilator currently and cumulatively, deaths, total hospitalized, total test results, death increase, hospitalized increase, negative tests increase, positive tests increase, and total tests increase 
+* STATE STATISTICS
+  * https://covidtracking.com/api/states
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in all 50 states and other regions attached to the US including deaths, recoveries, and infections 
+* SPECIFIC STATE STATISTICS
+  * https://covidtracking.com/api/states
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in all 50 states and other regions attached to the US including regions, positive cases, negative cases, pending cases, those hospitalized currently and cumulatively, those hospitalized in the ICU currently and cumulatively, those on the ventilator currently and cumulatively, deaths, total hospitalized, total test results, death increase, hospitalized increase, negative tests increase, positive tests increase, and total tests increase  
    
 ### Resources 
 - https://covidtracking.com/data/api
