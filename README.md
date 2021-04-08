@@ -89,6 +89,16 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
    | stat1        | Number   | The first statistic   |
    | stat2      | Number   | The second statistic |
    
+   #### Stat
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | stateName         | String     | Title of the first stat                        |
+   | deathCount     | Number   | Number of deaths                             |
+   | recoveredCount        | Number   | Number of patients recovered   |
+   | infectedCount      | Number   | Number of patients infected |
+   | stateImage | Image | An image of the state |
+   
 ### Networking
 
 * UNITED STATES STATISTICS
