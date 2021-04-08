@@ -80,7 +80,7 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
 ## Schema 
 ### Models
-#### State Stats
+#### State Statistics
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
@@ -88,6 +88,18 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
    | stateName     | String   | name of state                             |
    | deaths        | Number   | number of deaths in corresponding state   |
    | infected      | Number   | number of infected in corresponding state |
+   
+###Networking
+
+* UNITED STATES STATISTICS
+  * http://covidtracking.com/api/us
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in the entirety of the US including regions, positive cases, negative cases, pending cases, those hospitalized currently and cumulatively, those hospitalized in the ICU currently and cumulatively, those on the ventilator currently and cumulatively, deaths, total hospitalized, total test results, death increase, hospitalized increase, negative tests increase, positive tests increase, and total tests increase 
+* STATE STATISTICS
+  * https://covidtracking.com/api/states
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in all 50 states and other regions attached to the US including deaths, recoveries, and infections 
+* SPECIFIC STATE STATISTICS
+  * https://covidtracking.com/api/states
+  * (READ / GET) Transfers information of statistics regarding the novel coronavirus in all 50 states and other regions attached to the US including regions, positive cases, negative cases, pending cases, those hospitalized currently and cumulatively, those hospitalized in the ICU currently and cumulatively, those on the ventilator currently and cumulatively, deaths, total hospitalized, total test results, death increase, hospitalized increase, negative tests increase, positive tests increase, and total tests increase  
    
 ### Resources 
 - https://covidtracking.com/data/api
