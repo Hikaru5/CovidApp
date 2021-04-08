@@ -84,8 +84,8 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | statTitle1         | String     | Title of the first stat                        |
-   | statTitle2     | String   | Title of the second stat                             |
+   | statTitle1         | String     | Title of the first statistic                        |
+   | statTitle2     | String   | Title of the second statistic                             |
    | stat1        | Number   | The first statistic   |
    | stat2      | Number   | The second statistic |
    
@@ -93,7 +93,7 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | stateName         | String     | Title of the first stat                        |
+   | stateName         | String     | Title of the first statistic                        |
    | deathCount     | Number   | Number of deaths                             |
    | recoveredCount        | Number   | Number of patients recovered   |
    | infectedCount      | Number   | Number of patients infected |
