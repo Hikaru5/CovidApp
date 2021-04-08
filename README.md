@@ -89,7 +89,7 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
    | deaths        | Number   | number of deaths in corresponding state   |
    | infected      | Number   | number of infected in corresponding state |
    
-###Networking
+### Networking
 
 * UNITED STATES STATISTICS
   * http://covidtracking.com/api/us
