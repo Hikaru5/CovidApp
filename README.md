@@ -89,7 +89,7 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
    | stat1        | Number   | The first statistic   |
    | stat2      | Number   | The second statistic |
    
-   #### Stat
+   #### State
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
