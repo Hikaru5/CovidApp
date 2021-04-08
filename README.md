@@ -80,14 +80,14 @@ https://www.figma.com/file/ypbDUkkW79ZF84t9FPFSCq/covid-stats-app?node-id=0%3A1&
 
 ## Schema 
 ### Models
-#### State Statistics
+#### DoubleStat
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | image         | File     | image of the state                        |
-   | stateName     | String   | name of state                             |
-   | deaths        | Number   | number of deaths in corresponding state   |
-   | infected      | Number   | number of infected in corresponding state |
+   | statTitle1         | String     | Title of the first stat                        |
+   | statTitle2     | String   | Title of the second stat                             |
+   | stat1        | Number   | The first statistic   |
+   | stat2      | Number   | The second statistic |
    
 ### Networking
 
