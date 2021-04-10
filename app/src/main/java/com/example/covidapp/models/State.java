@@ -19,23 +19,18 @@ public class State {
 
     public State(){}//empty constructor for parceler
 
-    //Someone needs to do the API stuff in here please
-    public static State fromJson(/*JSONObject JsonObject*/) /*throws JSONException */{
-        State state = new State();
-
-        state.stateName = "State name";
-        state.deathCount = 1000;
-        state.infectedCount = 2000;
-        state.recoveredCount = 3000;
-        state.stateImage = "";
-
-        return state;
+    public State(JSONObject jsonObject) throws JSONException
+    {
+        stateName = jsonObject.getString("state");
+        deathCount = jsonObject.getInt("deathConfirmed");
+        infectedCount = jsonObject.getInt("positive");
+        recoveredCount = jsonObject.getInt("recovered");
     }
 
     public static List<State> fromJSONArray(JSONArray jsonArray) throws JSONException {
         List<State> states = new ArrayList<>();
         for(int i = 0; i < jsonArray.length(); i++){
-            //states.add(fromJson(jsonArray.getJSONObject(i)));
+            states.add(new State(jsonArray.getJSONObject(i)));
         }
         return states;
     }

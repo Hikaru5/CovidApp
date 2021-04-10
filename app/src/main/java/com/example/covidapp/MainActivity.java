@@ -4,8 +4,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+import com.codepath.asynchttpclient.AsyncHttpClient;
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
+import com.example.covidapp.models.State;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import okhttp3.Headers;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         btnCountryStats = findViewById(R.id.btnCountryStats);
         btnStateStats = findViewById(R.id.btnStateStats);
         btnCovidInfo = findViewById(R.id.btnCovidInfo);
         btnAboutUs = findViewById(R.id.btnAboutUs);
+
 
         getSupportActionBar().hide();//hides the title bar on the top of the app
 
@@ -59,7 +73,4 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-    }
-
-
-}
+}}
