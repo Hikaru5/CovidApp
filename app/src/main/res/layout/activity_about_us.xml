@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#63A1FF"
-    tools:context=".AboutUsActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
 
     <Button
         android:id="@+id/btnAboutUsBack"
@@ -19,38 +18,34 @@
         android:text="&lt;-- Back"
         android:textColor="#000000" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        app:srcCompat="@drawable/GroupPhotoPart1" />
+
     <TextView
         android:id="@+id/tvAboutUsTitle"
-        android:layout_width="320dp"
+        android:layout_width="335dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:background="#C4C4C4"
+        android:background="#FFFFFF"
         android:fontFamily="@font/noto_sans_bold"
         android:text="About Us"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="40sp" />
 
-    <ImageView
-        android:id="@+id/ivGroupPicture"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        tools:srcCompat="@tools:sample/avatars"
-        android:contentDescription="Group Picture" />
-
     <TextView
         android:id="@+id/tvAboutUs"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_width="335dp"
+        android:layout_height="260dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:background="#DCDCDC"
-        android:fontFamily="@font/noto_sans"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-condensed-light"
         android:padding="10dp"
-        android:text="ad adwhdabhshdhbhb ahwbbhhbdhwajkdnj n jw nandjk dnkkajwn j n wjnajdhakjskjdjwjndukwankudnn nd nandnsnkajk dnkja nwndn nnjj jkdwnjdkawjjdk "
+        android:text="@string/hello_everyone_we_are_a_group_of_four_students_from_cal_poly_all_studying_in_the_areas_of_engineering_and_computer_science_who_were_inspired_to_create_an_efficient_coronavirus_statistics_application_due_to_the_recent_unprecedented_global_pandemic_thank_you_for_taking_the_time_to_use_our_app"
         android:textColor="#000000"
         android:textSize="20sp" />
 

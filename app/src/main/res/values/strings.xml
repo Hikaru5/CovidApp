@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CovidApp</string>
+    <string name="hello_everyone_we_are_a_group_of_four_students_from_cal_poly_all_studying_in_the_areas_of_engineering_and_computer_science_who_were_inspired_to_create_an_efficient_coronavirus_statistics_application_due_to_the_recent_unprecedented_global_pandemic_thank_you_for_taking_the_time_to_use_our_app">Hello everyone! We are a group of four students from Cal Poly all studying in the areas of engineering and computer science who were inspired to create an efficient coronavirus statistics application due to the recent unprecedented global pandemic. Thank you for taking the time to use our app!</string>
 </resources>
