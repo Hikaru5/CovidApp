@@ -26,7 +26,7 @@ import okhttp3.Headers;
 public class StateStatsActivity extends AppCompatActivity {
 
     public static final String TAG = "StateStatsActivity";
-    public static final String STATES_URL = "https://covidtracking.com/api/states";
+    public static final String STATES_URL = "https://api.covidtracking.com/v2/states.json";
 
     Button btnBack;
     RecyclerView rvStates;
