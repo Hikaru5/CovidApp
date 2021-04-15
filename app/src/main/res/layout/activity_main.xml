@@ -22,6 +22,7 @@
         android:text="Covid-19 Statistics Tracker"
         android:textAlignment="center"
         android:textColor="#000000"
+        android:elevation="5dp"
         android:textSize="42sp" />
 
     <Button
