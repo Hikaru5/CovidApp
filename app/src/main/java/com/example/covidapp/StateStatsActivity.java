@@ -63,7 +63,7 @@ public class StateStatsActivity extends AppCompatActivity {
                 Log.d(TAG,"onSuccess");
                 JSONObject jsonObject = json.jsonObject;
                 try {
-                    JSONArray current = jsonObject.getJSONArray("current");
+                    JSONArray current = jsonObject.getJSONArray("data");
                     Log.i(TAG,current.toString());
                     states.addAll(State.fromJSONArray(current));
                     adapter.notifyDataSetChanged();
