@@ -1,0 +1,34 @@
+com/example/covidapp/models/DoubleStat.java
+ com.example.covidapp.models.DoubleStat
+com/example/covidapp/SpecificStateStatsActivity.java
+ com.example.covidapp.SpecificStateStatsActivity
+ com.example.covidapp.SpecificStateStatsActivity$1
+com/example/covidapp/CountryStatsActivity.java
+ com.example.covidapp.CountryStatsActivity
+ com.example.covidapp.CountryStatsActivity$1
+com/example/covidapp/BuildConfig.java
+ com.example.covidapp.BuildConfig
+com/example/covidapp/DoubleStatAdapter.java
+ com.example.covidapp.DoubleStatAdapter
+ com.example.covidapp.DoubleStatAdapter$Viewholder
+com/example/covidapp/CovidInfoActivity.java
+ com.example.covidapp.CovidInfoActivity
+ com.example.covidapp.CovidInfoActivity$1
+com/example/covidapp/MainActivity.java
+ com.example.covidapp.MainActivity
+ com.example.covidapp.MainActivity$1
+ com.example.covidapp.MainActivity$2
+ com.example.covidapp.MainActivity$3
+ com.example.covidapp.MainActivity$4
+com/example/covidapp/AboutUsActivity.java
+ com.example.covidapp.AboutUsActivity
+ com.example.covidapp.AboutUsActivity$1
+com/example/covidapp/models/State.java
+ com.example.covidapp.models.State
+com/example/covidapp/StateAdapter.java
+ com.example.covidapp.StateAdapter
+ com.example.covidapp.StateAdapter$1
+ com.example.covidapp.StateAdapter$Viewholder
+com/example/covidapp/StateStatsActivity.java
+ com.example.covidapp.StateStatsActivity
+ com.example.covidapp.StateStatsActivity$1
