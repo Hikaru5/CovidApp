@@ -14,7 +14,6 @@ public class State {
     public String stateName;
     public int deathCount;
     public int infectedCount;
-    public int recoveredCount;
     public String stateImage;
 
     public State(){}//empty constructor for parceler
@@ -22,9 +21,8 @@ public class State {
     public State(JSONObject jsonObject) throws JSONException
     {
         stateName = jsonObject.getString("state");
-        deathCount = jsonObject.getInt("deathConfirmed");
-        infectedCount = jsonObject.getInt("positive");
-        recoveredCount = jsonObject.getInt("recovered");
+        deathCount = jsonObject.getInt("deaths");
+        infectedCount = jsonObject.getInt("cases");
     }
 
     public static List<State> fromJSONArray(JSONArray jsonArray) throws JSONException {

@@ -26,7 +26,7 @@ import okhttp3.Headers;
 public class StateStatsActivity extends AppCompatActivity {
 
     public static final String TAG = "StateStatsActivity";
-    public static final String STATES_URL = "https://api.covidtracking.com/v2/states.json";
+    public static final String STATES_URL = "https://api.covidactnow.org/v2/states.json?apiKey=24ff4fc22bef4e859a94e50d8596472d";
 
     Button btnBack;
     RecyclerView rvStates;
@@ -63,7 +63,7 @@ public class StateStatsActivity extends AppCompatActivity {
                 Log.d(TAG,"onSuccess");
                 JSONObject jsonObject = json.jsonObject;
                 try {
-                    JSONArray current = jsonObject.getJSONArray("data");
+                    JSONArray current = jsonObject.getJSONArray("results");
                     Log.i(TAG,current.toString());
                     states.addAll(State.fromJSONArray(current));
                     adapter.notifyDataSetChanged();

@@ -93,7 +93,6 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
             tvStateTitle.setText(state.stateName);
             tvStat1.setText("Deaths: " + state.deathCount);
             tvStat2.setText("Infected: " + state.infectedCount);
-            tvStat3.setText("Recovered: " + state.recoveredCount);
 
         }
     }
