@@ -34,6 +34,7 @@
 
     <TextView
         android:id="@+id/tvCovidInfo"
+        android:elevation="10dp"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

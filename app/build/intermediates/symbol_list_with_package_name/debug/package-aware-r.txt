@@ -1686,6 +1686,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round
 drawable rounded_corner
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -1890,13 +1891,13 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id info
 id invisible
 id inward
 id italic
 id item_touch_helper_previous_elevation
 id ivCountryPicture
-id ivGroupPicture
 id ivSpecificStateStatsPicture
 id ivStatePicture
 id jumpToEnd
@@ -2327,6 +2328,7 @@ string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_everyone_we_are_a_group_of_four_students_from_cal_poly_all_studying_in_the_areas_of_engineering_and_computer_science_who_were_inspired_to_create_an_efficient_coronavirus_statistics_application_due_to_the_recent_unprecedented_global_pandemic_thank_you_for_taking_the_time_to_use_our_app
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2902,6 +2904,7 @@ style ThemeOverlay_MaterialComponents_TimePicker_Display
 style ThemeOverlay_MaterialComponents_Toolbar_Primary
 style ThemeOverlay_MaterialComponents_Toolbar_Surface
 style ThemeOverlayColorAccentRed
+style WhiteButton
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

@@ -6396,7 +6396,7 @@
     </string-array></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values\preloaded_fonts.xml" qualifiers=""><array name="preloaded_fonts" translatable="false">
         <item>@font/noto_sans</item>
         <item>@font/noto_sans_bold</item>
-    </array></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">CovidApp</string></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.CovidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    </array></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">CovidApp</string><string name="hello_everyone_we_are_a_group_of_four_students_from_cal_poly_all_studying_in_the_areas_of_engineering_and_computer_science_who_were_inspired_to_create_an_efficient_coronavirus_statistics_application_due_to_the_recent_unprecedented_global_pandemic_thank_you_for_taking_the_time_to_use_our_app">Hello everyone! We are a group of four students from Cal Poly all studying in the areas of engineering and computer science who were inspired to create an efficient coronavirus statistics application due to the recent unprecedented global pandemic. Thank you for taking the time to use our app!</string></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.CovidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -6408,6 +6408,18 @@
         
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
+    </style><style name="WhiteButton" parent="">
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="background">@drawable/rounded_corner</item>
+        <item name="android:elevation">10dp</item>
+        <item name="minHeight">0dp</item>
+        <item name="minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:radius">10dp</item>
     </style></file><file path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\values-night\themes.xml" qualifiers="night-v8"><style name="Theme.CovidApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>
@@ -6420,7 +6432,7 @@
         
         <item name="android:statusBarColor" ns2:targetApi="l">?attr/colorPrimaryVariant</item>
         
-    </style></file><file name="activity_country_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_country_stats.xml" qualifiers="" type="layout"/><file name="activity_state_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_state_stats.xml" qualifiers="" type="layout"/><file name="activity_specific_state_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_specific_state_stats.xml" qualifiers="" type="layout"/><file name="item_double_stat" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\item_double_stat.xml" qualifiers="" type="layout"/><file name="item_state" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\item_state.xml" qualifiers="" type="layout"/><file name="drop_shadow" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\drawable\drop_shadow.xml" qualifiers="" type="drawable"/></source><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\build\generated\res\rs\debug"/><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
+    </style></file><file name="activity_country_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_country_stats.xml" qualifiers="" type="layout"/><file name="activity_state_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_state_stats.xml" qualifiers="" type="layout"/><file name="activity_specific_state_stats" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\activity_specific_state_stats.xml" qualifiers="" type="layout"/><file name="item_double_stat" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\item_double_stat.xml" qualifiers="" type="layout"/><file name="item_state" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\layout\item_state.xml" qualifiers="" type="layout"/><file name="drop_shadow" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\drawable\drop_shadow.xml" qualifiers="" type="drawable"/><file name="round" path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\main\res\drawable\round.xml" qualifiers="" type="drawable"/></source><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\build\generated\res\rs\debug"/><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\Snowy\Desktop\Programs\Java\CovidApp\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AlertDialog">
         <attr name="android:layout"/>
         <attr format="reference" name="buttonPanelSideLayout"/>
         <attr format="reference" name="listLayout"/>

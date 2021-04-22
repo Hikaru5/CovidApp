@@ -21,6 +21,7 @@
 
     <View
         android:id="@+id/tvStateInfoContainer"
+        android:elevation="10dp"
         android:layout_width="320dp"
         android:layout_height="160dp"
         android:layout_below="@+id/tvStateTitle"

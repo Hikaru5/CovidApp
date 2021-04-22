@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
     android:background="#97C1FF"
     android:orientation="vertical"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -18,15 +16,17 @@
         android:layout_marginTop="70dp"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="#FFFFFF"
+        android:elevation="10dp"
         android:fontFamily="@font/noto_sans"
+        android:padding="10dp"
         android:text="Covid-19 Statistics Tracker"
         android:textAlignment="center"
         android:textColor="#000000"
-        android:elevation="5dp"
         android:textSize="42sp" />
 
     <Button
         android:id="@+id/btnCountryStats"
+        style="@style/WhiteButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -41,6 +41,7 @@
 
     <Button
         android:id="@+id/btnStateStats"
+        style="@style/WhiteButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -55,6 +56,7 @@
 
     <Button
         android:id="@+id/btnCovidInfo"
+        style="@style/WhiteButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -69,6 +71,7 @@
 
     <Button
         android:id="@+id/btnAboutUs"
+        style="@style/WhiteButton"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"

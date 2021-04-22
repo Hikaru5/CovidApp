@@ -13,4 +13,17 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="WhiteButton" parent="">
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="background">@drawable/rounded_corner</item>
+        <item name="android:elevation">10dp</item>
+        <item name="minHeight">0dp</item>
+        <item name="minWidth">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:outlineProvider">bounds</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:radius">10dp</item>
+    </style>
 </resources>
