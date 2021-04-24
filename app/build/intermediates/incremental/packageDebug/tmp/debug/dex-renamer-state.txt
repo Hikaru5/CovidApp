@@ -1,4 +1,4 @@
-#Wed Apr 21 17:44:25 PDT 2021
+#Wed Apr 21 19:46:33 PDT 2021
 base.0=C\:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
