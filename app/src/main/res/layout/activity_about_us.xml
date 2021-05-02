@@ -8,7 +8,8 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:paddingLeft="5dp"
-    android:paddingRight="5dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
     tools:context=".AboutUsActivity">
 
     <Button
@@ -18,14 +19,14 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:backgroundTint="#C0E96A"
-        android:text="&lt;--- Back"
+        android:text="Back"
         android:textColor="#000000"
         app:iconPadding="5dp" />
 
     <TextView
         android:id="@+id/tvAboutUsTitle"
         android:layout_width="335dp"
-        android:layout_height="74dp"
+        android:layout_height="72dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:backgroundTint="#FFFFFF"
@@ -38,29 +39,31 @@
         android:textSize="40sp"
         android:textStyle="bold" />
 
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="411dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        app:srcCompat="@drawable/group" />
+
     <TextView
         android:id="@+id/tvAboutUs"
-        android:elevation="10dp"
         android:layout_width="335dp"
         android:layout_height="208dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/round"
+        android:elevation="10dp"
         android:fontFamily="sans-serif-condensed-light"
         android:paddingLeft="5dp"
-        android:paddingTop="5dp"
+        android:paddingTop="10dp"
         android:paddingRight="5dp"
         android:paddingBottom="5dp"
         android:text="@string/hello_everyone_we_are_a_group_of_four_students_from_cal_poly_all_studying_in_the_areas_of_engineering_and_computer_science_who_were_inspired_to_create_an_efficient_coronavirus_statistics_application_due_to_the_recent_unprecedented_global_pandemic_thank_you_for_taking_the_time_to_use_our_app"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="20sp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="326dp"
-        android:paddingTop="20dp"
-         />
 
 
 </LinearLayout>
