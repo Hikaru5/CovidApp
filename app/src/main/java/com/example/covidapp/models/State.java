@@ -39,4 +39,17 @@ public class State {
         }
         return states;
     }
+
+    public static State setManual(String stateName, int deathCount, int infectedCount, int recoveredCount, String stateAbbreviation){
+        State state = new State();
+
+        state.stateName = stateName;
+        state.deathCount = deathCount;
+        state.infectedCount = infectedCount;
+        state.recoveredCount = recoveredCount;
+        state.stateImage = stateAbbreviation.toLowerCase();
+
+        return state;
+    }
+
 }

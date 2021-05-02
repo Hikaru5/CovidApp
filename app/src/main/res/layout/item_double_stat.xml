@@ -20,7 +20,6 @@
 
     <TextView
         android:id="@+id/tvStat1"
-        android:elevation="10dp"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvStatTitle1"
@@ -29,13 +28,13 @@
         android:background="#DCDCDC"
         android:fontFamily="@font/noto_sans"
         android:text="1000"
+        android:elevation="10dp"
         android:textAlignment="center"
         android:textColor="#1A779E"
         android:textSize="25sp" />
 
     <TextView
         android:id="@+id/tvStat2"
-        android:elevation="10dp"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvStatTitle2"
@@ -45,6 +44,7 @@
         android:background="#DCDCDC"
         android:fontFamily="@font/noto_sans"
         android:text="2000"
+        android:elevation="10dp"
         android:textAlignment="center"
         android:textColor="#1A779E"
         android:textSize="25sp" />

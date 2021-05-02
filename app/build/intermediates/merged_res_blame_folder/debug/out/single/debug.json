@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\va.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\round.xml"
-    },
-    {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tx.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\tx.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\round.xml"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ks.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ks.png"
-    },
-    {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nm.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nm.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ks.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ks.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ma.png.flat",

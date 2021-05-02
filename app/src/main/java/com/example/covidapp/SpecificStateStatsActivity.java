@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +13,8 @@ import android.widget.TextView;
 
 import com.example.covidapp.models.DoubleStat;
 import com.example.covidapp.models.State;
+
+import org.parceler.Parcels;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +27,8 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
     TextView tvStateName;
     ImageView ivStateImg;
     RecyclerView rvStateStats;
+
+    State stateInfo;
 
     List<DoubleStat> stats;
     DoubleStatAdapter adapter;
@@ -41,6 +46,15 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
         ivStateImg = findViewById(R.id.ivSpecificStateStatsPicture);
         rvStateStats = findViewById(R.id.rvSpecificStateStats);
 
+        stateInfo = (State) Parcels.unwrap(getIntent().getParcelableExtra("state"));//unwrap the state object
+
+        Context context = ivStateImg.getContext();//setting the state picture
+        int id = context.getResources().getIdentifier(stateInfo.stateImage, "drawable", context.getPackageName());
+        ivStateImg.setImageResource(id);
+
+        tvStateName.setText(stateInfo.stateName);//setting state name
+
+
         stats = new ArrayList<>();
         populateStatList();
         adapter = new DoubleStatAdapter(this, stats);
@@ -57,9 +71,11 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
     }
 
     private void populateStatList() {
-        for(int i = 0; i < 10; i++){
+        /*for(int i = 0; i < 10; i++){
             stats.add(DoubleStat.fromJson());
-        }
+        }*/
+        stats.add(DoubleStat.setManual("Deaths", "Infected", stateInfo.deathCount, stateInfo.infectedCount));
+        stats.add(DoubleStat.setManual("Recovered", "Empty stat", stateInfo.recoveredCount, 0));
     }
 
 }

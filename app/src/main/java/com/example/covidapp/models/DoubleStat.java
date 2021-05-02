@@ -37,4 +37,15 @@ public class DoubleStat {
         }
         return stats;
     }
+
+    public static DoubleStat setManual(String statTitle1, String statTitle2, int stat1, int stat2){
+        DoubleStat stat = new DoubleStat();
+
+        stat.statTitle1 = statTitle1;
+        stat.statTitle2 = statTitle2;
+        stat.stat1 = stat1;
+        stat.stat2 = stat2;
+
+        return stat;
+    }
 }

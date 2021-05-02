@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#63A1FF"
+    android:background="#97C1FF"
     android:orientation="vertical"
     tools:context=".CovidInfoActivity">
 
@@ -13,10 +12,10 @@
         android:id="@+id/btnCovidInfoBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="#C0E96A"
-        android:text="&lt;-- Back"
+        android:text="Back"
         android:textColor="#000000" />
 
     <TextView
@@ -24,25 +23,28 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        android:background="#C4C4C4"
+        android:layout_marginTop="15dp"
+        android:background="#FFFFFF"
         android:fontFamily="@font/noto_sans_bold"
-        android:text="Covid-19 Info"
+        android:text="COVID-19 Info"
+        android:elevation="10dp"
+        android:paddingTop="10dp"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="40sp" />
 
     <TextView
         android:id="@+id/tvCovidInfo"
-        android:elevation="10dp"
         android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_height="560dp"
         android:layout_gravity="center_horizontal"
-        android:background="#DCDCDC"
+        android:background="#FFFFFF"
         android:fontFamily="@font/noto_sans"
-        android:padding="10dp"
-        android:text="akdj wjaj djawdwadkn awn nd jkwajnkfdjnwajfj nnwn n jnandknasdnnwa nn nd kjansdnnawn nkdwnansdnwa nndkawnkbdknbknsakndnsan dn  na nndnawndjajdnwadsjkadnk nk kn nabkdbhwbdbhksbkakdj d :)"
+        android:padding="15dp"
+        android:elevation="10dp"
+        android:text="Coronavirus is an infectious disease with numerous different variations; the most newly identified, SARS-COV-2 has caused a worldwide pandemic of respiratory illness, also referred to as COVID-19. Symptoms may appear anywhere between 2 to 14 days after exposure and include fever, chills, cough, shortness of breath, fatigue, body aches, headache, loss of smell and taste, nausea, sore throat, or congestion. In addition, civilians with previous, underlying medical issues are more susceptible to catching coronavirus. Ways to stay safe from this disease include social distancing at least six feet, washing hands after being in a public setting, wearing a mask, and only going out when necessary. Vaccines have been introduced in the last few months and around 6% of the world population has received vaccinations. Continue to stay safe and get vaccinated!"
+        android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="20sp" />
+        android:textSize="15.5dp" />
 
 </LinearLayout>

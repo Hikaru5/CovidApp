@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.covidapp.models.State;
 
+import org.parceler.Parcels;
 import org.w3c.dom.Text;
 
 import java.util.List;
@@ -43,10 +44,15 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
         //Bind the tweet with viewholder
         holder.bind(state);
         //launches new activity when state is clicked
+
         holder.btnStateSelect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(holder.itemView.getContext(), SpecificStateStatsActivity.class);
+
+                State state = states.get(position);//passes the selected state to the new intent
+                i.putExtra("state", Parcels.wrap(state));
+
                 holder.itemView.getContext().startActivity(i);
             }
         });
@@ -76,7 +82,7 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
         TextView tvStat1;
         TextView tvStat2;
         TextView tvStat3;
-        ImageView ivStateImageUrl;
+        ImageView ivStateImage;
         Button btnStateSelect;
 
         public Viewholder(@NonNull View itemView){
@@ -85,7 +91,7 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
             tvStat1 = itemView.findViewById(R.id.tvStateStat1);
             tvStat2 = itemView.findViewById(R.id.tvStateStat2);
             tvStat3 = itemView.findViewById(R.id.tvStateStat3);
-            ivStateImageUrl = itemView.findViewById(R.id.ivStatePicture);
+            ivStateImage = itemView.findViewById(R.id.ivStatePicture);
             btnStateSelect = itemView.findViewById(R.id.btnStateSelect);
         }
 
@@ -94,6 +100,10 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
             tvStat1.setText("Deaths: " + state.deathCount);
             tvStat2.setText("Infected: " + state.infectedCount);
             tvStat3.setText("Recovered: " + state.recoveredCount);
+            Context context = ivStateImage.getContext();//setting the state picture
+            int id = context.getResources().getIdentifier(state.stateImage, "drawable", context.getPackageName());
+
+            ivStateImage.setImageResource(id);
 
         }
     }

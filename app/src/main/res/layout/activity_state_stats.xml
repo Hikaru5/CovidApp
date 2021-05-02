@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#63A1FF"
+    android:background="#97C1FF"
     android:orientation="vertical"
     tools:context=".StateStatsActivity">
 
@@ -12,10 +12,10 @@
         android:id="@+id/btnStateStatsBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="#C0E96A"
-        android:text="&lt;-- Back"
+        android:text="Back"
         android:textColor="#000000" />
 
     <androidx.recyclerview.widget.RecyclerView
@@ -23,6 +23,6 @@
         android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="15dp" />
 
 </LinearLayout>
