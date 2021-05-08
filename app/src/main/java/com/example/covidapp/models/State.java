@@ -11,6 +11,7 @@ import java.util.List;
 @Parcel
 public class State {
 
+    public String fullStateName;
     public String stateName;
     public int deathCount;
     public int infectedCount;
@@ -23,11 +24,28 @@ public class State {
     {
         State state = new State();
 
-        state.stateName = JsonObject.getString("state");
-        state.deathCount = JsonObject.getInt("deaths");
-        state.infectedCount = JsonObject.getInt("cases");
-        state.fullyVaccinated = JsonObject.getInt("vaccinationsCompleted");
-        state.stateImage = "";
+        try{
+            state.stateName = JsonObject.getString("state");
+        } catch (JSONException e){
+            state.stateName = "Unknown";
+        }
+        try{
+            state.deathCount = JsonObject.getInt("deaths");
+        } catch (JSONException e){
+            state.deathCount = 0;
+        }
+        try{
+            state.infectedCount = JsonObject.getInt("cases");
+        } catch (JSONException e){
+            state.infectedCount = 0;
+        }
+        try{
+            state.fullyVaccinated = JsonObject.getInt("vaccinationsCompleted");
+        } catch (JSONException e){
+            state.fullyVaccinated = 0;
+        }
+
+        state.stateImage = "@drawable/" + state.stateName.toLowerCase();
 
         return state;
     }
@@ -50,6 +68,10 @@ public class State {
         state.stateImage = stateAbbreviation.toLowerCase();
 
         return state;
+    }
+
+    public void setStateName(String name){
+        fullStateName = name;
     }
 
 }

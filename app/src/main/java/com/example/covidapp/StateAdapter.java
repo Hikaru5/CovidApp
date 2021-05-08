@@ -96,7 +96,12 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
         }
 
         public void bind(State state){
-            tvStateTitle.setText(state.stateName);
+            if(state.fullStateName == ""){
+                tvStateTitle.setText(state.stateName);
+            }else{
+                tvStateTitle.setText(state.fullStateName);
+            }
+
             tvStat1.setText("Deaths: " + state.deathCount);
             tvStat2.setText("Infected: " + state.infectedCount);
             tvStat3.setText("Fully Vaccinated: " + state.fullyVaccinated);

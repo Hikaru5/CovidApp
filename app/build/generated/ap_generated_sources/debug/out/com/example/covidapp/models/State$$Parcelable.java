@@ -53,6 +53,7 @@ public class State$$Parcelable
             parcel$$1 .writeInt(state$$1 .infectedCount);
             parcel$$1 .writeString(state$$1 .stateName);
             parcel$$1 .writeInt(state$$1 .fullyVaccinated);
+            parcel$$1 .writeString(state$$1 .fullStateName);
             parcel$$1 .writeInt(state$$1 .deathCount);
             parcel$$1 .writeString(state$$1 .stateImage);
         }
@@ -83,6 +84,7 @@ public class State$$Parcelable
             state$$4 .infectedCount = parcel$$3 .readInt();
             state$$4 .stateName = parcel$$3 .readString();
             state$$4 .fullyVaccinated = parcel$$3 .readInt();
+            state$$4 .fullStateName = parcel$$3 .readString();
             state$$4 .deathCount = parcel$$3 .readInt();
             state$$4 .stateImage = parcel$$3 .readString();
             com.example.covidapp.models.State state$$3 = state$$4;

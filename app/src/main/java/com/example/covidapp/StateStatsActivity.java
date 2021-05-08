@@ -81,6 +81,12 @@ public class StateStatsActivity extends AppCompatActivity {
                 try
                 {
                     states.addAll(State.fromJSONArray(statesList));
+
+                    for(int i = 0; i < states.size(); i++){//assigns the state name based on state abbreviation
+                        State state = states.get(i);
+                        state.setStateName( stateNames.get(state.stateName) );
+                    }
+
                     adapter.notifyDataSetChanged();
                     Log.i(TAG,"States: "+states.size());
                 }
@@ -99,6 +105,8 @@ public class StateStatsActivity extends AppCompatActivity {
     }
 
     private void setStateNames(){
+        stateNames.put("", "Unknown");
+
         stateNames.put("AL", "Alabama");
         stateNames.put("AK", "Alaska");
         stateNames.put("AZ", "Arizona");
