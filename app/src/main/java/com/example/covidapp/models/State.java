@@ -14,19 +14,19 @@ public class State {
     public String stateName;
     public int deathCount;
     public int infectedCount;
-    public int recoveredCount;
+    public int fullyVaccinated;
     public String stateImage;
 
     public State(){}//empty constructor for parceler
 
-    //Someone needs to do the API stuff in here please
-    public static State fromJson(/*JSONObject JsonObject*/) /*throws JSONException */{
+    public static State fromJson(JSONObject JsonObject) throws JSONException
+    {
         State state = new State();
 
-        state.stateName = "State name";
-        state.deathCount = 1000;
-        state.infectedCount = 2000;
-        state.recoveredCount = 3000;
+        state.stateName = JsonObject.getString("state");
+        state.deathCount = JsonObject.getInt("deaths");
+        state.infectedCount = JsonObject.getInt("cases");
+        state.fullyVaccinated = JsonObject.getInt("vaccinationsCompleted");
         state.stateImage = "";
 
         return state;
@@ -35,18 +35,18 @@ public class State {
     public static List<State> fromJSONArray(JSONArray jsonArray) throws JSONException {
         List<State> states = new ArrayList<>();
         for(int i = 0; i < jsonArray.length(); i++){
-            //states.add(fromJson(jsonArray.getJSONObject(i)));
+            states.add(fromJson(jsonArray.getJSONObject(i)));
         }
         return states;
     }
 
-    public static State setManual(String stateName, int deathCount, int infectedCount, int recoveredCount, String stateAbbreviation){
+    public static State setManual(String stateName, int deathCount, int infectedCount, int vaccinatedCount, String stateAbbreviation){
         State state = new State();
 
         state.stateName = stateName;
         state.deathCount = deathCount;
         state.infectedCount = infectedCount;
-        state.recoveredCount = recoveredCount;
+        state.fullyVaccinated = vaccinatedCount;
         state.stateImage = stateAbbreviation.toLowerCase();
 
         return state;

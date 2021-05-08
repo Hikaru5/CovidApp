@@ -6,6 +6,7 @@ com/example/covidapp/SpecificStateStatsActivity.java
 com/example/covidapp/CountryStatsActivity.java
  com.example.covidapp.CountryStatsActivity
  com.example.covidapp.CountryStatsActivity$1
+ com.example.covidapp.CountryStatsActivity$2
 com/example/covidapp/models/State.java
  com.example.covidapp.models.State
 com/example/covidapp/DoubleStatAdapter.java
@@ -32,3 +33,4 @@ com/example/covidapp/BuildConfig.java
 com/example/covidapp/StateStatsActivity.java
  com.example.covidapp.StateStatsActivity
  com.example.covidapp.StateStatsActivity$1
+ com.example.covidapp.StateStatsActivity$2

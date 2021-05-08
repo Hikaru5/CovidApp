@@ -39,4 +39,6 @@ dependencies {
 
     implementation 'org.parceler:parceler-api:1.1.12'//parceler
     annotationProcessor 'org.parceler:parceler:1.1.12'
+
+    implementation'com.codepath.libraries:asynchttpclient:0.0.9'
 }

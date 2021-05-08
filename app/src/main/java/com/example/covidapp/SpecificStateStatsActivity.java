@@ -56,7 +56,6 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
 
 
         stats = new ArrayList<>();
-        populateStatList();
         adapter = new DoubleStatAdapter(this, stats);
 
         rvStateStats.setLayoutManager(new LinearLayoutManager(this));
@@ -69,13 +68,4 @@ public class SpecificStateStatsActivity extends AppCompatActivity {
             }
         });
     }
-
-    private void populateStatList() {
-        /*for(int i = 0; i < 10; i++){
-            stats.add(DoubleStat.fromJson());
-        }*/
-        stats.add(DoubleStat.setManual("Deaths", "Infected", stateInfo.deathCount, stateInfo.infectedCount));
-        stats.add(DoubleStat.setManual("Recovered", "Empty stat", stateInfo.recoveredCount, 0));
-    }
-
 }

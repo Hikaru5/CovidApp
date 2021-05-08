@@ -99,7 +99,7 @@ public class StateAdapter extends RecyclerView.Adapter<StateAdapter.Viewholder> 
             tvStateTitle.setText(state.stateName);
             tvStat1.setText("Deaths: " + state.deathCount);
             tvStat2.setText("Infected: " + state.infectedCount);
-            tvStat3.setText("Recovered: " + state.recoveredCount);
+            tvStat3.setText("Fully Vaccinated: " + state.fullyVaccinated);
             Context context = ivStateImage.getContext();//setting the state picture
             int id = context.getResources().getIdentifier(state.stateImage, "drawable", context.getPackageName());
 

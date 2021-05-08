@@ -6,16 +6,26 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import com.codepath.asynchttpclient.AsyncHttpClient;
+
+
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
 import com.example.covidapp.models.State;
+
+import org.json.JSONArray;
+import org.json.JSONException;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Hashtable;
 import java.util.Map;
+
+import okhttp3.Headers;
 
 //the button to send the user to SpecificStateStatsActivity has its code inside of StateAdapter
 //this was done because of some issues with context
@@ -23,6 +33,7 @@ import java.util.Map;
 public class StateStatsActivity extends AppCompatActivity {
 
     public static final String TAG = "StateStatsActivity";
+    public static final String STATES_URL = "https://api.covidactnow.org/v2/states.json?apiKey=6b6dd78ca3d0478c8d18892239af23ca";
 
     Button btnBack;
     Button btnStateSelect;
@@ -47,7 +58,6 @@ public class StateStatsActivity extends AppCompatActivity {
         btnStateSelect = findViewById(R.id.btnStateSelect);
 
         states = new ArrayList<>();
-        populateStateList();
         adapter = new StateAdapter(this, states);
 
         rvStates.setLayoutManager(new LinearLayoutManager(this));
@@ -60,76 +70,93 @@ public class StateStatsActivity extends AppCompatActivity {
             }
         });
 
-    }
+        AsyncHttpClient client = new AsyncHttpClient();
+        client.get(STATES_URL, new JsonHttpResponseHandler()
+        {
+            @Override
+            public void onSuccess(int statusCode, Headers headers, JSON json)
+            {
+                Log.d(TAG,"onSuccess");
+                JSONArray statesList = json.jsonArray;
+                try
+                {
+                    states.addAll(State.fromJSONArray(statesList));
+                    adapter.notifyDataSetChanged();
+                    Log.i(TAG,"States: "+states.size());
+                }
+                catch (JSONException e)
+                {
+                    Log.e(TAG,"Hit JsonException", e);
+                }
+            }
 
-    private void populateStateList(){
-        /*for(int i = 0; i < 10; i++){
-            states.add(State.fromJson());
-        }*/
-        for (Map.Entry<String, String> e : stateNames.entrySet()) {
-            states.add(State.setManual(e.getValue(), 1, 1, 1, e.getKey()));
-        }
+            @Override
+            public void onFailure(int statusCode, Headers headers, String response, Throwable throwable)
+            {
+                Log.d(TAG,"onFailure");
+            }
+        });
     }
 
     private void setStateNames(){
-        stateNames.put("al", "Alabama");
-        stateNames.put("ak", "Alaska");
-        stateNames.put("az", "Arizona");
-        stateNames.put("ar", "Arkansas");
-        stateNames.put("ca", "California");
+        stateNames.put("AL", "Alabama");
+        stateNames.put("AK", "Alaska");
+        stateNames.put("AZ", "Arizona");
+        stateNames.put("AR", "Arkansas");
+        stateNames.put("CA", "California");
 
-        stateNames.put("co", "Colorado");
-        stateNames.put("ct", "Connecticut");
-        stateNames.put("de", "Delaware");
-        stateNames.put("fl", "Florida");
-        stateNames.put("ga", "Georgia");
+        stateNames.put("CO", "Colorado");
+        stateNames.put("CT", "Connecticut");
+        stateNames.put("DE", "Delaware");
+        stateNames.put("FL", "Florida");
+        stateNames.put("GA", "Georgia");
 
-        stateNames.put("hi", "Hawaii");
-        stateNames.put("id", "Idaho");
-        stateNames.put("il", "Illinois");
-        stateNames.put("in", "Indiana");
-        stateNames.put("ia", "Iowa");
+        stateNames.put("HI", "Hawaii");
+        stateNames.put("ID", "Idaho");
+        stateNames.put("IL", "Illinois");
+        stateNames.put("IN", "Indiana");
+        stateNames.put("IA", "Iowa");
 
-        stateNames.put("ks", "Kansas");
-        stateNames.put("ky", "Kentucky");
-        stateNames.put("la", "Louisiana");
-        stateNames.put("me", "Maine");
-        stateNames.put("md", "Maryland");
+        stateNames.put("KS", "Kansas");
+        stateNames.put("KY", "Kentucky");
+        stateNames.put("LA", "Louisiana");
+        stateNames.put("ME", "Maine");
+        stateNames.put("MD", "Maryland");
 
-        stateNames.put("ma", "Massachusetts");
-        stateNames.put("mi", "Michigan");
-        stateNames.put("mn", "Minnesota");
-        stateNames.put("ms", "Mississippi");
-        stateNames.put("mo", "Missouri");
+        stateNames.put("MA", "Massachusetts");
+        stateNames.put("MI", "Michigan");
+        stateNames.put("MN", "Minnesota");
+        stateNames.put("MS", "Mississippi");
+        stateNames.put("MO", "Missouri");
 
-        stateNames.put("mt", "Montana");
-        stateNames.put("ne", "Nebraska");
-        stateNames.put("nv", "Nevada");
-        stateNames.put("nh", "New Hampshire");
-        stateNames.put("nj", "New Jersey");
+        stateNames.put("MT", "Montana");
+        stateNames.put("NE", "Nebraska");
+        stateNames.put("NV", "Nevada");
+        stateNames.put("NH", "New Hampshire");
+        stateNames.put("NJ", "New Jersey");
 
-        stateNames.put("nm", "New Mexico");
-        stateNames.put("ny", "New York");
-        stateNames.put("nc", "North Carolina");
-        stateNames.put("nd", "North Dakota");
-        stateNames.put("oh", "Ohio");
+        stateNames.put("NM", "New Mexico");
+        stateNames.put("NY", "New York");
+        stateNames.put("NC", "North Carolina");
+        stateNames.put("ND", "North Dakota");
+        stateNames.put("OH", "Ohio");
 
-        stateNames.put("ok", "Oklahoma");
-        stateNames.put("or", "Oregon");
-        stateNames.put("pa", "Pennsylvania");
-        stateNames.put("ri", "Rhode Island");
-        stateNames.put("sc", "South Carolina");
+        stateNames.put("OK", "Oklahoma");
+        stateNames.put("OR", "Oregon");
+        stateNames.put("PA", "Pennsylvania");
+        stateNames.put("RI", "Rhode Island");
+        stateNames.put("SC", "South Carolina");
 
-        stateNames.put("sd", "South Dakota");
-        stateNames.put("tn", "Tennessee");
-        stateNames.put("tx", "Texas");
-        stateNames.put("ut", "Utah");
-        stateNames.put("vt", "Vermont");
+        stateNames.put("SD", "South Dakota");
+        stateNames.put("TN", "Tennessee");
+        stateNames.put("TX", "Texas");
+        stateNames.put("UT", "Utah");
+        stateNames.put("VT", "Vermont");
 
-        stateNames.put("va", "Virginia");
-        stateNames.put("wa", "Washington");
-        stateNames.put("wv", "West Virginia");
-        stateNames.put("wi", "Wisconsin");
-        stateNames.put("wy", "Wyoming");
+        stateNames.put("VA", "Virginia");
+        stateNames.put("WA", "Washington");
+        stateNames.put("WV", "West Virginia");
+        stateNames.put("WI", "Wisconsin");
+        stateNames.put("WY", "Wyoming");
     }
 }

@@ -52,8 +52,8 @@ public class State$$Parcelable
             parcel$$1 .writeInt(identityMap$$0 .put(state$$1));
             parcel$$1 .writeInt(state$$1 .infectedCount);
             parcel$$1 .writeString(state$$1 .stateName);
+            parcel$$1 .writeInt(state$$1 .fullyVaccinated);
             parcel$$1 .writeInt(state$$1 .deathCount);
-            parcel$$1 .writeInt(state$$1 .recoveredCount);
             parcel$$1 .writeString(state$$1 .stateImage);
         }
     }
@@ -82,8 +82,8 @@ public class State$$Parcelable
             identityMap$$1 .put(reservation$$0, state$$4);
             state$$4 .infectedCount = parcel$$3 .readInt();
             state$$4 .stateName = parcel$$3 .readString();
+            state$$4 .fullyVaccinated = parcel$$3 .readInt();
             state$$4 .deathCount = parcel$$3 .readInt();
-            state$$4 .recoveredCount = parcel$$3 .readInt();
             state$$4 .stateImage = parcel$$3 .readString();
             com.example.covidapp.models.State state$$3 = state$$4;
             identityMap$$1 .put(identity$$1, state$$3);
