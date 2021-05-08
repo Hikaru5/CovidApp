@@ -8,8 +8,8 @@ com/example/covidapp/CountryStatsActivity.java
  com.example.covidapp.CountryStatsActivity
  com.example.covidapp.CountryStatsActivity$1
  com.example.covidapp.CountryStatsActivity$2
-com/example/covidapp/BuildConfig.java
- com.example.covidapp.BuildConfig
+com/example/covidapp/models/State.java
+ com.example.covidapp.models.State
 com/example/covidapp/DoubleStatAdapter.java
  com.example.covidapp.DoubleStatAdapter
  com.example.covidapp.DoubleStatAdapter$Viewholder
@@ -25,12 +25,12 @@ com/example/covidapp/MainActivity.java
 com/example/covidapp/AboutUsActivity.java
  com.example.covidapp.AboutUsActivity
  com.example.covidapp.AboutUsActivity$1
-com/example/covidapp/models/State.java
- com.example.covidapp.models.State
 com/example/covidapp/StateAdapter.java
  com.example.covidapp.StateAdapter
  com.example.covidapp.StateAdapter$1
  com.example.covidapp.StateAdapter$Viewholder
+com/example/covidapp/BuildConfig.java
+ com.example.covidapp.BuildConfig
 com/example/covidapp/StateStatsActivity.java
  com.example.covidapp.StateStatsActivity
  com.example.covidapp.StateStatsActivity$1

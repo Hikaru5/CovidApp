@@ -4,16 +4,24 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\layout\\item_double_stat.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_md.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\md.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_va.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\va.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_va.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\va.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ct.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ct.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tx.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\tx.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ne.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ne.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round.xml.flat",
@@ -32,40 +40,28 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ks.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ks.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ar.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ar.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nm.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nm.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ma.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ma.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sd.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\sd.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wi.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\wi.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mo.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\mo.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pa.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\pa.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ak.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ak.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_vt.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\vt.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_md.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\md.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about_us.xml.flat",
@@ -80,12 +76,20 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nj.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nj.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mn.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\mn.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ca.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ca.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ca.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ca.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tn.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\tn.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nj.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nj.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_specific_state_stats.xml.flat",
@@ -96,208 +100,228 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\font\\noto_sans.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nc.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nc.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vt.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\vt.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tn.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\tn.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drop_shadow.xml.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\drop_shadow.xml"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_country_stats.xml.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\layout\\activity_country_stats.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_hi.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\hi.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_il.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\il.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nc.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nc.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_az.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\az.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wi.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\wi.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_group.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\group.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sd.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\sd.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_il.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\il.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tx.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\tx.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hi.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\hi.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_co.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\co.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nm.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nm.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mn.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\mn.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ut.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ut.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_da.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\da.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_al.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\al.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_la.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\la.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wv.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\wv.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mt.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\mt.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ny.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ny.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ia.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ia.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ia.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ia.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_al.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\al.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wv.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\wv.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_de.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\de.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_drop_shadow.xml.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\drop_shadow.xml"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wa.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\wa.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ny.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ny.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_us.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\us.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nd.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nd.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mi.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\mi.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\font_noto_sans_bold.xml.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\font\\noto_sans_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ri.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ri.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ut.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ut.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_az.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\az.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nv.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nv.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_co.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\co.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mt.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\mt.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oh.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\oh.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_corner.xml.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\rounded_corner.xml"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wy.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\wy.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_id.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\id.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_state_stats.xml.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\layout\\activity_state_stats.xml"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_me.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\me.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_la.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\la.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nh.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nh.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sc.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\sc.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cn.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\cn.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ok.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ok.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ok.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ok.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ga.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ga.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\group.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_mi.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\mi.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fl.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\fl.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ar.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ar.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_in.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\in.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_oh.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\oh.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\me.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_id.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\id.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nh.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nh.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nv.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\nv.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ms.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ms.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ne.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ne.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ga.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ga.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ms.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ms.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nd.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\nd.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wa.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\wa.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ma.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ma.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_or.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\or.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_or.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\or.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_fl.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\fl.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ri.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ri.png"
+    },
+    {
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ks.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\ks.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ak.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\ak.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_pa.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\pa.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_in.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\in.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_wy.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\wy.png"
-    },
-    {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sc.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\sc.png"
     },
     {
         "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_covid_info.xml.flat",
@@ -308,7 +332,7 @@
         "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_us.png.flat",
-        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable-v24\\us.png"
+        "merged": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mo.png.flat",
+        "source": "C:\\Users\\Snowy\\Desktop\\Programs\\Java\\CovidApp\\app\\src\\main\\res\\drawable\\mo.png"
     }
 ]
