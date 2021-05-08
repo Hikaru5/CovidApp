@@ -1,5 +1,9 @@
 package com.example.covidapp.models;
 
+import android.util.Log;
+
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -11,11 +15,13 @@ import java.util.List;
 @Parcel
 public class State {
 
+    public static final String TAG = "State";
+
     public String fullStateName;
     public String stateName;
-    public int deathCount;
-    public int infectedCount;
-    public int fullyVaccinated;
+    public String deathCount;
+    public String infectedCount;
+    public String fullyVaccinated;
     public String stateImage;
 
     public State(){}//empty constructor for parceler
@@ -24,25 +30,31 @@ public class State {
     {
         State state = new State();
 
+        JSONObject actuals = JsonObject.getJSONObject("actuals");//stats we are interested in are stored in an array called "actuals"
+
         try{
             state.stateName = JsonObject.getString("state");
         } catch (JSONException e){
             state.stateName = "";
+            Log.e(TAG, "Failed to load stat: " + e);
         }
         try{
-            state.deathCount = JsonObject.getInt("deaths");
+            state.deathCount = "" + actuals.getInt("deaths");
         } catch (JSONException e){
-            state.deathCount = 0;
+            state.deathCount = "No data";
+            Log.e(TAG, "Failed to load stat: " + e);
         }
         try{
-            state.infectedCount = JsonObject.getInt("cases");
+            state.infectedCount = "" + actuals.getInt("cases");
         } catch (JSONException e){
-            state.infectedCount = 0;
+            state.infectedCount = "No data";
+            Log.e(TAG, "Failed to load stat: " + e);
         }
         try{
-            state.fullyVaccinated = JsonObject.getInt("vaccinationsCompleted");
+            state.fullyVaccinated = "" + actuals.getInt("vaccinationsCompleted");
         } catch (JSONException e){
-            state.fullyVaccinated = 0;
+            state.fullyVaccinated = "No data";
+            Log.e(TAG, "Failed to load stat: " + e);
         }
 
         state.stateImage = "@drawable/" + state.stateName.toLowerCase();
@@ -61,10 +73,10 @@ public class State {
     public static State setManual(String stateName, int deathCount, int infectedCount, int vaccinatedCount, String stateAbbreviation){
         State state = new State();
 
-        state.stateName = stateName;
-        state.deathCount = deathCount;
-        state.infectedCount = infectedCount;
-        state.fullyVaccinated = vaccinatedCount;
+        state.stateName = "" + stateName;
+        state.deathCount = "" + deathCount;
+        state.infectedCount = "" + infectedCount;
+        state.fullyVaccinated = "" + vaccinatedCount;
         state.stateImage = stateAbbreviation.toLowerCase();
 
         return state;
