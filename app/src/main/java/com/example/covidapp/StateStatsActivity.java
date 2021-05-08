@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
@@ -35,6 +36,7 @@ public class StateStatsActivity extends AppCompatActivity {
     public static final String TAG = "StateStatsActivity";
     public static final String STATES_URL = "https://api.covidactnow.org/v2/states.json?apiKey=6b6dd78ca3d0478c8d18892239af23ca";
 
+    ProgressBar pbLoading;
     Button btnBack;
     Button btnStateSelect;
     RecyclerView rvStates;
@@ -56,6 +58,7 @@ public class StateStatsActivity extends AppCompatActivity {
         btnBack = findViewById(R.id.btnStateStatsBack);
         rvStates = findViewById(R.id.rvStates);
         btnStateSelect = findViewById(R.id.btnStateSelect);
+        pbLoading = (ProgressBar) findViewById(R.id.pbStateStats);
 
         states = new ArrayList<>();
         adapter = new StateAdapter(this, states);
@@ -76,6 +79,8 @@ public class StateStatsActivity extends AppCompatActivity {
             @Override
             public void onSuccess(int statusCode, Headers headers, JSON json)
             {
+                pbLoading.setVisibility(View.VISIBLE);
+
                 Log.d(TAG,"onSuccess");
                 JSONArray statesList = json.jsonArray;
                 try
@@ -88,6 +93,7 @@ public class StateStatsActivity extends AppCompatActivity {
                     }
 
                     adapter.notifyDataSetChanged();
+                    pbLoading.setVisibility(View.GONE);
                     Log.i(TAG,"States: "+states.size());
                 }
                 catch (JSONException e)
@@ -106,6 +112,9 @@ public class StateStatsActivity extends AppCompatActivity {
 
     private void setStateNames(){
         stateNames.put("", "Unknown");
+        stateNames.put("MP", "Northern Mariana Islands");
+        stateNames.put("PR", "Puerto Rico");
+        stateNames.put("DC", "District of Colombia");
 
         stateNames.put("AL", "Alabama");
         stateNames.put("AK", "Alaska");

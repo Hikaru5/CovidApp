@@ -27,7 +27,7 @@ public class State {
         try{
             state.stateName = JsonObject.getString("state");
         } catch (JSONException e){
-            state.stateName = "Unknown";
+            state.stateName = "";
         }
         try{
             state.deathCount = JsonObject.getInt("deaths");
