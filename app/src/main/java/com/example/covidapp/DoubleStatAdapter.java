@@ -74,8 +74,8 @@ public class DoubleStatAdapter extends RecyclerView.Adapter<DoubleStatAdapter.Vi
         public void bind(DoubleStat stat){
             tvStatTitle1.setText(stat.statTitle1);
             tvStatTitle2.setText(stat.statTitle2);
-            tvStat1.setText("" + stat.stat1);
-            tvStat2.setText("" + stat.stat2);
+            tvStat1.setText(stat.stat1);
+            tvStat2.setText(stat.stat2);
         }
 
     }

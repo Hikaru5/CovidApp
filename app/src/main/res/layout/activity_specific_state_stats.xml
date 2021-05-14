@@ -41,11 +41,11 @@
         android:contentDescription="State Picture"
         tools:srcCompat="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/tvStateStats"
-        android:layout_width="match_parent"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSpecificStateStatsList"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:background="#FFFFFF" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
 
 </LinearLayout>

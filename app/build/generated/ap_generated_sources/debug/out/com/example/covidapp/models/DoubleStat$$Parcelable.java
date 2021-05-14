@@ -51,9 +51,9 @@ public class DoubleStat$$Parcelable
         } else {
             parcel$$1 .writeInt(identityMap$$0 .put(doubleStat$$1));
             parcel$$1 .writeString(doubleStat$$1 .statTitle2);
-            parcel$$1 .writeInt(doubleStat$$1 .stat2);
+            parcel$$1 .writeString(doubleStat$$1 .stat2);
             parcel$$1 .writeString(doubleStat$$1 .statTitle1);
-            parcel$$1 .writeInt(doubleStat$$1 .stat1);
+            parcel$$1 .writeString(doubleStat$$1 .stat1);
         }
     }
 
@@ -80,9 +80,9 @@ public class DoubleStat$$Parcelable
             doubleStat$$4 = new com.example.covidapp.models.DoubleStat();
             identityMap$$1 .put(reservation$$0, doubleStat$$4);
             doubleStat$$4 .statTitle2 = parcel$$3 .readString();
-            doubleStat$$4 .stat2 = parcel$$3 .readInt();
+            doubleStat$$4 .stat2 = parcel$$3 .readString();
             doubleStat$$4 .statTitle1 = parcel$$3 .readString();
-            doubleStat$$4 .stat1 = parcel$$3 .readInt();
+            doubleStat$$4 .stat1 = parcel$$3 .readString();
             com.example.covidapp.models.DoubleStat doubleStat$$3 = doubleStat$$4;
             identityMap$$1 .put(identity$$1, doubleStat$$3);
             return doubleStat$$3;

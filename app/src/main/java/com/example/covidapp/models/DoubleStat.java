@@ -12,9 +12,9 @@ import java.util.List;
 public class DoubleStat {
 
     public String statTitle1;
-    public int stat1;
+    public String stat1;
     public String statTitle2;
-    public int stat2;
+    public String stat2;
 
     public DoubleStat(){}//empty constructor for parceler
 
@@ -24,8 +24,8 @@ public class DoubleStat {
 
         stat.statTitle1 = "stat 1";
         stat.statTitle2 = "stat 2";
-        stat.stat1 = 1000;
-        stat.stat2 = 2000;
+        stat.stat1 = "1000";
+        stat.stat2 = "2000";
 
         return stat;
     }
@@ -38,7 +38,7 @@ public class DoubleStat {
         return stats;
     }
 
-    public static DoubleStat setManual(String statTitle1, String statTitle2, int stat1, int stat2){
+    public static DoubleStat setManual(String statTitle1, String statTitle2, String stat1, String stat2){
         DoubleStat stat = new DoubleStat();
 
         stat.statTitle1 = statTitle1;
