@@ -1646,6 +1646,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable ca
 drawable co
 drawable ct
+drawable dc
 drawable de
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1671,6 +1672,7 @@ drawable id
 drawable il
 drawable in
 drawable ks
+drawable ky
 drawable la
 drawable ma
 drawable material_cursor_drawable
@@ -1688,6 +1690,7 @@ drawable me
 drawable mi
 drawable mn
 drawable mo
+drawable mp
 drawable ms
 drawable mt
 drawable mtrl_dialog_background
@@ -1724,6 +1727,7 @@ drawable oh
 drawable ok
 drawable or
 drawable pa
+drawable pr
 drawable ri
 drawable round
 drawable rounded_corner
@@ -2057,6 +2061,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvCountryStatisticsList
+id rvSpecificStateStatsList
 id rvStates
 id save_non_transition_alpha
 id save_overlay_view
@@ -2160,7 +2166,6 @@ id transition_transform
 id triangle
 id tvAboutUs
 id tvAboutUsTitle
-id tvCountryStats
 id tvCovidInfo
 id tvCovidInfoTitle
 id tvSpecificStateStatsTitle
@@ -2172,7 +2177,6 @@ id tvStateInfoContainer
 id tvStateStat1
 id tvStateStat2
 id tvStateStat3
-id tvStateStats
 id tvStateTitle
 id tvTitle
 id unchecked

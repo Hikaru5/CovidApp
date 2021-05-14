@@ -46,7 +46,7 @@
     <TextView
         android:id="@+id/tvAboutUs"
         android:layout_width="320dp"
-        android:layout_height="200dp"
+        android:layout_height="275dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
         android:background="#FFFFFF"
@@ -56,6 +56,6 @@
         android:text="Hello everyone! We are a group of four students from Cal Poly all studying in the areas of engineering and computer science who were inspired to create an efficient coronavirus statistics application due to the recent unprecedented global pandemic. Thank you for taking the time to use our app! "
         android:textAlignment="center"
         android:textColor="#000000"
-        android:textSize="15dp" />
+        android:textSize="17dp" />
 
 </LinearLayout>

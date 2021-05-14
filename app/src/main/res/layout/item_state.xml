@@ -13,9 +13,8 @@
         android:layout_marginTop="15dp"
         android:background="#C4C4C4"
         android:fontFamily="@font/noto_sans_bold"
-        android:paddingLeft="15dp"
         android:text="State Name"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="35sp" />
 
