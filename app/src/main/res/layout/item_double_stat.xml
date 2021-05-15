@@ -26,12 +26,12 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="5dp"
         android:background="#DCDCDC"
+        android:elevation="10dp"
         android:fontFamily="@font/noto_sans"
         android:text="1000"
-        android:elevation="10dp"
         android:textAlignment="center"
         android:textColor="#1A779E"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvStat2"
@@ -42,12 +42,12 @@
         android:layout_marginBottom="5dp"
         android:layout_toEndOf="@+id/tvStat1"
         android:background="#DCDCDC"
+        android:elevation="10dp"
         android:fontFamily="@font/noto_sans"
         android:text="2000"
-        android:elevation="10dp"
         android:textAlignment="center"
         android:textColor="#1A779E"
-        android:textSize="25sp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tvStatTitle2"
